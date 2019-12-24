@@ -2,6 +2,11 @@
 name = "sel"
 version = "0.1.0"
 authors = ["SpiritCS <sp1ritcs@protonmail.com>"]
+description = "Query Selector for HTML Files / Pipes"
+license = "BSD-3"
+license-file = "https://github.com/sp1ritCS/sel/blob/master/LICENSE.md"
+readme = "https://github.com/sp1ritCS/sel/blob/master/README.md"
+repository = "https://github.com/sp1ritCS/sel"
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
