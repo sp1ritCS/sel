@@ -21,7 +21,7 @@
 ## Install
 
 ```sh
-cargo install
+cargo install --path ./
 ```
 
 ## Usage
