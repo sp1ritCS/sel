@@ -1,6 +1,6 @@
 [package]
 name = "sel"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["SpiritCS <sp1ritcs@protonmail.com>"]
 description = "Query Selector for HTML Files / Pipes"
 license-file = "LICENSE.md"
