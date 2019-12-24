@@ -1,0 +1,26 @@
+name: sel
+version: "0.1.0"
+author: sp1ritCS <sp1ritCS@pm.me>
+about: Select HTML Element(s) by CSS Selector
+args:
+    - single:
+        short: s
+        long: single
+        multiple: false
+        help: gives the first sel find, instead of all of them
+    - input:
+        help: Sets the input file to use, if not given, it takes Pipe input
+        required: false
+        index: 2
+    - selector:
+        help: CSS Selector to query
+        required: true
+        index: 1
+    - verbose:
+        short: v
+        multiple: true
+        help: Sets the level of verbosity
+    - recursive:
+        help: Recoursivly Parses the Path of the Input Folder
+        short: r
+        long: recursive

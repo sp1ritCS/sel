@@ -1,0 +1,12 @@
+[package]
+name = "sel"
+version = "0.1.0"
+authors = ["SpiritCS <sp1ritcs@protonmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = {version = "2.33", features = ["yaml"]}
+victoria-dom = "0.1"
+walkdir = "2"
